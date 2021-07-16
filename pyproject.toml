@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pembroke-pines-gamenight-group-bot"
+version = "0.1.0"
+description = "Does stuff"
+authors = ["parker02311"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+"discord.py" = "^1.7.2"
+Quart = "^0.15.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
